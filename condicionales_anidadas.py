@@ -12,7 +12,7 @@ Compara el animal ingresado con tres opciones: "PERRO", "GATO" y "OSO". Según l
 coincidencia, imprime un mensaje que describe algunas características del animal 
 ingresado.
 Finaliza el programa mostrando "Fin".
-En resumen, el programa interactúa con el usuario para recibir tres valores enteros 
+El programa interactúa con el usuario para recibir tres valores enteros 
 y un nombre de animal, luego realiza comparaciones basadas en los valores ingresados
 y muestra mensajes dependiendo de las coincidencias encontradas en las comparaciones
 """
