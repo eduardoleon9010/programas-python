@@ -10,7 +10,7 @@ Si no es negativo, continúa sin hacer ningún cambio en x.
 Calcula la raíz cuadrada del valor final de x utilizando la función math.sqrt() y muestra 
 el resultado junto con un mensaje que indica cuál es el número del que se está calculando 
 la raíz cuadrada.
-En resumen, este programa verifica si el número ingresado es negativo y, en caso afirmativo, 
+Este programa verifica si el número ingresado es negativo y, en caso afirmativo, 
 reemplaza ese número con 42 antes de calcular la raíz cuadrada.
 """
 
