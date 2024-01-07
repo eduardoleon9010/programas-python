@@ -1,26 +1,23 @@
-"""
-Este programa realiza las siguientes acciones:
-
-Obtiene la fecha actual utilizando la librería datetime y muestra el día actual.
-Solicita al usuario ingresar dos números enteros.
-Realiza operaciones matemáticas básicas con los números ingresados: suma, resta, multiplicación y división.
-Muestra los resultados de estas operaciones.
-Finaliza el programa mostrando "Fin".
-El programa interactúa con el usuario para obtener dos números, realiza operaciones aritméticas con 
-estos números y muestra los resultados correspondientes.
-"""
-
 from datetime import date
-hoy = date.today()                #Fecha actual
-print("Hoy es el dia: ", hoy)
-n1 = int(input("Digite el primer numero: "))
-n2 = int(input("Digite el segundo numero: "))
-suma=n1+n2
-resta=n1-n2
-producto=n1*n2
-division=n1/n2
-print("La suma es = ",suma )
-print("La resta es = ",resta )
-print("La multiplicacion es = ",producto )
-print("La division es = ",division)
+
+# Obtener la fecha actual utilizando la librería datetime y mostrar el día actual
+hoy = date.today()
+print("Hoy es el día:", hoy)
+
+# Solicitar al usuario ingresar dos números enteros
+n1 = int(input("Digite el primer número: "))
+n2 = int(input("Digite el segundo número: "))
+
+# Realizar operaciones matemáticas básicas con los números ingresados: suma, resta, multiplicación y división
+suma = n1 + n2
+resta = n1 - n2
+producto = n1 * n2
+division = n1 / n2
+
+# Mostrar los resultados de estas operaciones
+print("La suma es =", suma)
+print("La resta es =", resta)
+print("La multiplicación es =", producto)
+print("La división es =", division)
 print("Fin")
+
