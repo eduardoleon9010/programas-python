@@ -1,55 +1,48 @@
-"""
-Este programa realiza una serie de tareas:
-
-Obtiene la fecha actual usando la librería datetime y muestra el día actual.
-Solicita al usuario ingresar dos valores enteros A y B.
-Compara A y B, luego imprime un mensaje dependiendo de si A es mayor o igual a B.
-Define dos variables de curso (curso_1 y curso_2) con nombres de cursos predefinidos.
-Compara si curso_1 es igual a "Requerimientos" y curso_2 es igual a "Algoritmos". 
-Si ambas condiciones son verdaderas, imprime un mensaje indicando que el usuario 
-estudia programación de software; de lo contrario, muestra un mensaje indicando 
-que el usuario estudia gastronomía.
-Imprime un mensaje indicando el final del análisis del programa de formación SENA.
-Solicita al usuario ingresar una oración.
-Imprime la oración ingresada en mayúsculas.
-Calcula y muestra la longitud de la oración ingresada.
-Evalúa si la longitud de la oración es mayor a 10 caracteres y muestra un mensaje 
-indicando si es mayor o menor a 10 caracteres.
-Finaliza el programa mostrando "Fin".
-El programa interactúa con el usuario para recibir datos, realiza 
-comparaciones entre valores y cadenas, muestra mensajes y realiza algunas operaciones 
-básicas con cadenas y números.
-"""
-
 from datetime import date
-hoy = date.today()                #Fecha actual
-print("Hoy es el dia: ", hoy)
 
-a=int(input("Digite el valor A: "))
-b=int(input("Digite el valor B: "))
-if a>=b:
+# Obtener la fecha actual utilizando la librería datetime y mostrar el día actual
+hoy = date.today()
+print("Hoy es el día:", hoy)
+print()
+
+# Solicitar al usuario ingresar dos valores enteros A y B para comparar
+a = int(input("Digite el valor A: "))
+b = int(input("Digite el valor B: "))
+
+# Comparar A y B, luego imprimir un mensaje basado en la comparación
+if a >= b:
     print("A es mayor o igual a B")
 else:
     print("A es menor que B")
 print()
-curso_1="Requerimientos"
-curso_2="Algoritmos"
-print("El curso_1 es: ", curso_1)
-print("El curso_2 es: ", curso_2)
+
+# Definir dos variables de curso y compararlas, luego mostrar el tipo de curso
+curso_1 = "Requerimientos"
+curso_2 = "Algoritmos"
+print("El curso 1 es:", curso_1)
+print("El curso 2 es:", curso_2)
 if curso_1 == "Requerimientos" and curso_2 == "Algoritmos":
-    print("Usted estudia programacion de software")
+    print("Usted estudia programación de software")
 else:
-    print("Usted estudia Gastronomia")
+    print("Usted estudia gastronomía")
 print()
-print("*** Final del analisis del programa de formacion SENA")
+
+# Imprimir un mensaje indicando el final del análisis del programa de formación SENA
+print("*** Final del análisis del programa de formación SENA")
 print()
-frase=input("Digite una oracion: ")
-print("La frase en mayuscula es: ", frase.upper())
-longitud=len(frase)
-print("La longitud de la frase es: ", len(frase), "caracteres")
-if longitud>10:
-    print("La frase contiene mas de 10 caracteres")
+
+# Solicitar al usuario ingresar una oración, mostrarla en mayúsculas y calcular su longitud
+frase = input("Digite una oración: ")
+print("La frase en mayúscula es:", frase.upper())
+longitud = len(frase)
+print("La longitud de la frase es:", len(frase), "caracteres")
+
+# Evaluar si la longitud de la oración es mayor a 10 caracteres y mostrar un mensaje en consecuencia
+if longitud > 10:
+    print("La frase contiene más de 10 caracteres")
 else:
-    print("La frase contiene menos de 11 caracteres")
+    print("La frase contiene 10 o menos caracteres")
 print()
+
+# Mostrar el final del programa
 print("Fin")
