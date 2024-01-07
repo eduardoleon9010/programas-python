@@ -1,7 +1,6 @@
-"""Este programa primero solicita al usuario que ingrese tres valores enteros, los almacena en 
-las variables x1, x2 y x3. Luego, rota estos valores de manera que x2 tenga el valor inicial 
-de x1, x3 tenga el valor inicial de x2 y x1 tenga el valor inicial de x3. Finalmente, muestra 
-los valores rotados por consola."""
+# Este programa solicita al usuario ingresar tres valores enteros, los almacena en variables x1, x2 y x3.
+# Luego, rota estos valores de manera que x2 tenga el valor inicial de x1, x3 tenga el valor inicial de x2 y 
+# x1 tenga el valor inicial de x3. Finalmente, muestra los valores rotados por consola.
 
 # Solicitar al usuario los valores
 x1 = int(input("Ingrese el primer valor (x1): "))
