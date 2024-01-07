@@ -1,5 +1,4 @@
 """
-Descripción del Módulo:
 Este módulo contiene funciones para calcular el perímetro y el área de un cuadrado, basado en la longitud de su lado. 
 Además, incluye un flujo para solicitar al usuario la longitud del lado de un cuadrado y muestra el perímetro y el 
 área correspondientes.
