@@ -2,7 +2,7 @@
 
 Este proyecto de Python implementa un simple juego de cartas donde el jugador compite contra la casa para obtener la mejor 
 mano sin pasarse de 21 puntos. El juego utiliza dos archivos principales: `logica_juego1.py` para la lógica del juego y 
-`interfaz_juego1.py` para la interfaz del usuario.
+`interfaz_juego1.py` para la interfaz del usuario. El proyecto es parte de las prácticas del curso de programación con Python ofrecido por la Universidad de los Andes y Coursera.
 
 ## Contenido del Repositorio
 
