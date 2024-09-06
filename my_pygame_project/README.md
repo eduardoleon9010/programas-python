@@ -6,12 +6,13 @@ la librería **PyGame**.
 
 ## Instrucciones
 
-**Mover la nave**: Utiliza las flechas del teclado izquierda y derecha 
-para mover la nave.
-**Disparar**: Presiona la barra espaciadora para disparar balas desde la nave.
-**Esquivar enemigos**: Los enemigos caen desde la parte superior de la 
-pantalla y debes esquivarlos. Si chocas con uno de ellos, pierdes una vida.
-**Ganar**: El juego se gana si eliminas 10 enemigos. 
+- **Menú inicial**: Se presenta un menú que permite al jugador comenzar el juego o salir.
+- **Movimiento del jugador**: La nave se mueve horizontalmente usando las teclas de flecha izquierda y derecha.
+- **Disparos**: La nave puede disparar balas para eliminar enemigos.
+- **Enemigos dinámicos**: Los enemigos caen desde la parte superior y se mueven de forma aleatoria.
+- **Sistema de vidas**: El jugador comienza con 3 vidas.
+- **Puntuación y victoria**: Se muestra la puntuación y un mensaje de victoria cuando el jugador elimina 10 enemigos.
+- **Pausa**: El juego puede ser pausado con la tecla 'P'.
 
 ## Características
 
